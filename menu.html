@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Salt n Pepper Restaurant Menu & Deals">
+  <title>restaurant website</title>
+  <!-- Educational Student Practice Project Only -->
+  <link rel="icon" type="image/x-icon" href="https://static.tossdown.com/site/7902afc3-10ba-4230-9b7a-6c29fbe3e4dc.webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="web-header">
+    <div class="header-container">
+      <a href="index.html" class="logo">
+        <img src="https://images-beta.tossdown.com/site/65b73fb7-2706-4440-87b9-9555fcd0ba80.webp" alt="Salt n Pepper Restaurant">
+      </a>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="branches.html">Branches</a></li>
+        </ul>
+      </nav>
+      <div class="header-right">
+        <a href="#" class="icon-link" title="Account"><i class="fa-regular fa-user"></i></a>
+        <a href="#" class="icon-link cart-link" title="Cart">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span class="cart-count">0</span>
+        </a>
+        <a href="menu.html" class="btn-order-online">
+          Order Online
+          <span class="arrow-circle"><i class="fa-solid fa-arrow-right"></i></span>
+        </a>
+      </div>
+      <button class="mobile-toggle" aria-label="Menu"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </header>
+
+  <!-- PAGE BANNER -->
+  <section class="page-banner">
+    <div class="container">
+      <h1>Our Menu</h1>
+      <p>Explore our delicious deals and categories</p>
+    </div>
+  </section>
+
+  <!-- CATEGORIES -->
+  <section class="categories-section">
+    <div class="container">
+      <div class="section-heading">
+        <h2>Menu Categories</h2>
+      </div>
+      <div class="category-grid">
+        <a href="#deals" class="category-card">
+          <img src="https://static.tossdown.com/images/68e61bc5-35d2-4ff4-9d56-838184f79268.webp" alt="Rice & Meals">
+          <span>Rice & Meals</span>
+        </a>
+        <a href="#deals" class="category-card">
+          <img src="https://static.tossdown.com/images/7886c30d-52ac-4381-b387-4a9752c1cdc3.webp" alt="Pakistani BBQ">
+          <span>Pakistani B.B.Q</span>
+        </a>
+        <a href="#deals" class="category-card">
+          <img src="https://static.tossdown.com/images/23638097-691e-4949-86c1-e9e45682f44e.webp" alt="Chinese">
+          <span>Chinese</span>
+        </a>
+        <a href="#deals" class="category-card">
+          <img src="https://static.tossdown.com/images/a691c302-0042-4ea9-922b-f19b2d12eaf2.webp" alt="Desserts">
+          <span>Desserts & Beverages</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEALS -->
+  <section class="deals-section" id="deals">
+    <div class="container">
+      <div class="section-heading">
+        <h2>Our Deals</h2>
+      </div>
+      <div class="deals-grid">
+        <article class="deal-card">
+          <div class="deal-img">
+            <img src="https://static.tossdown.com/images/efed780e-cd2b-4a75-aae8-ec6febb4aec2.webp" alt="Superior">
+          </div>
+          <div class="deal-body">
+            <h3>Superior</h3>
+            <p>American Fried Chicken (2 Pcs), Chicken Sandwich Cold (2 Pcs), French Fries, Coleslaw, Dessert.</p>
+            <div class="deal-price">Rs 1,750</div>
+          </div>
+        </article>
+        <article class="deal-card">
+          <div class="deal-img">
+            <img src="https://static.tossdown.com/images/3293a8da-c283-44f4-aac3-468d2231e2d6.webp" alt="Deluxe">
+          </div>
+          <div class="deal-body">
+            <h3>Deluxe</h3>
+            <p>Fried Chicken Breast Sandwich, Chicken Nuggets (3 Pcs), Chicken Apple & Pineapple Salad, French Fries, Dessert.</p>
+            <div class="deal-price">Rs 2,150</div>
+          </div>
+        </article>
+        <article class="deal-card">
+          <div class="deal-img">
+            <img src="https://static.tossdown.com/images/69548b55-792c-439d-afa4-9f2b7028bdf4.webp" alt="VIP">
+          </div>
+          <div class="deal-body">
+            <h3>VIP</h3>
+            <p>Chicken Cheese Nuggets (3 Pcs), Chicken Sandwich Cold (2 Pcs), Chicken Shashlik (1/2 Portion), Egg Fried Rice, French Fries, Chicken Apple & Pineapple Salad, Dessert.</p>
+            <div class="deal-price">Rs 2,390</div>
+          </div>
+        </article>
+        <article class="deal-card">
+          <div class="deal-img">
+            <img src="https://static.tossdown.com/images/dc4f57e5-3ece-4a64-8a73-abf174ac2327.webp" alt="Pakistani BBQ">
+          </div>
+          <div class="deal-body">
+            <h3>Pakistani B.B.Q</h3>
+            <p>Chicken Tikka (1 Piece), Chicken Seekh Kabab (3 Pcs), Roghni Naan (2), Kachumar Salad, Mint Raita, Dessert.</p>
+            <div class="deal-price">Rs 2,290</div>
+          </div>
+        </article>
+        <article class="deal-card">
+          <div class="deal-img">
+            <img src="https://static.tossdown.com/images/601477f2-172a-43a7-a526-14be870602db.webp" alt="Pakistani Deluxe">
+          </div>
+          <div class="deal-body">
+            <h3>Pakistani Deluxe</h3>
+            <p>Boneless Chicken Handi (Portion), Chicken Seekh Kabab (2 Pcs), Vegetable Rice, Roghni Naan, Kachumar Salad, Mint Raita, Dessert.</p>
+            <div class="deal-price">Rs 2,150</div>
+          </div>
+        </article>
+        <article class="deal-card">
+          <div class="deal-img">
+            <img src="https://static.tossdown.com/images/ceca678d-0ba9-40bc-a0f4-471431f6b007.webp" alt="Pakistani VIP">
+          </div>
+          <div class="deal-body">
+            <h3>Pakistani VIP</h3>
+            <p>Boneless Chicken Handi (Portion), Boneless Chicken Boti (4 Pcs), Chicken Seekh Kabab (3 Pcs), Vegetable Rice, Kachumar Salad, Roghni Naan, Mint Raita, Dessert.</p>
+            <div class="deal-price">Rs 2,450</div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h3>Salt n Pepper Restaurant</h3>
+          <p>Pakistan’s most recognized and distinguished hospitality brand. Free delivery all over Lahore anytime, anywhere.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="branches.html">Branches</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li>Foodconsults (Pvt) Ltd</li>
+            <li>48 – Commercial Zone, Liberty Market, Lahore</li>
+            <li>042-35752893</li>
+            <li>orders@saltnpepper.com.pk</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Delivery</h4>
+          <ul>
+            <li>+92 42 111 100 678</li>
+            <li>+923 111 444 610</li>
+            <li>Free Delivery All Over Lahore</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Salt n Pepper Restaurant. All rights reserved.</span>
+        <span>Static HTML/CSS Assignment</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

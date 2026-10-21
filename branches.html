@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Salt n Pepper Restaurant Branches across Pakistan">
+  <title> Restaurant website</title>
+  <!-- Educational Student Practice Project Only -->
+  <link rel="icon" type="image/x-icon" href="https://static.tossdown.com/site/7902afc3-10ba-4230-9b7a-6c29fbe3e4dc.webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="web-header">
+    <div class="header-container">
+      <a href="index.html" class="logo">
+        <img src="https://images-beta.tossdown.com/site/65b73fb7-2706-4440-87b9-9555fcd0ba80.webp" alt="Salt n Pepper Restaurant">
+      </a>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="branches.html" class="active">Branches</a></li>
+        </ul>
+      </nav>
+      <div class="header-right">
+        <a href="#" class="icon-link" title="Account"><i class="fa-regular fa-user"></i></a>
+        <a href="#" class="icon-link cart-link" title="Cart">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span class="cart-count">0</span>
+        </a>
+        <a href="menu.html" class="btn-order-online">
+          Order Online
+          <span class="arrow-circle"><i class="fa-solid fa-arrow-right"></i></span>
+        </a>
+      </div>
+      <button class="mobile-toggle" aria-label="Menu"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </header>
+
+  <!-- PAGE BANNER -->
+  <section class="page-banner">
+    <div class="container">
+      <h1>Our Branches</h1>
+      <p>Find a Salt n Pepper near you</p>
+    </div>
+  </section>
+
+  <!-- BRANCHES -->
+  <section class="page-content">
+    <div class="container">
+      <div class="branches-grid">
+        <!-- Branch 1 -->
+        <div class="branch-card">
+          <div class="branch-header">
+            <h3>Mall Road</h3>
+            <span class="branch-tag">Restaurant</span>
+          </div>
+          <ul class="branch-details">
+            <li><i class="fa-solid fa-location-dot"></i> 26, Mall Road, Lahore, Pakistan</li>
+            <li><i class="fa-solid fa-phone"></i> 042-37244009</li>
+            <li><i class="fa-solid fa-clock"></i> Open Daily</li>
+          </ul>
+          <a href="tel:04237244009" class="btn-red btn-sm">Call Now</a>
+        </div>
+
+        <!-- Branch 2 -->
+        <div class="branch-card">
+          <div class="branch-header">
+            <h3>Liberty Market</h3>
+            <span class="branch-tag">Restaurant</span>
+          </div>
+          <ul class="branch-details">
+            <li><i class="fa-solid fa-location-dot"></i> 48 – Commercial Zone, Liberty Market, Lahore</li>
+            <li><i class="fa-solid fa-phone"></i> 042-35752893</li>
+            <li><i class="fa-solid fa-clock"></i> Open Daily</li>
+          </ul>
+          <a href="tel:04235752893" class="btn-red btn-sm">Call Now</a>
+        </div>
+
+        <!-- Branch 3 -->
+        <div class="branch-card">
+          <div class="branch-header">
+            <h3>Village – Gulberg</h3>
+            <span class="branch-tag">Buffet / À la carte</span>
+          </div>
+          <ul class="branch-details">
+            <li><i class="fa-solid fa-location-dot"></i> 103-B II, MM Alam Road, Gulberg, Lahore</li>
+            <li><i class="fa-solid fa-phone"></i> 042-35750735</li>
+            <li><i class="fa-solid fa-users"></i> Seating Capacity: 300</li>
+            <li><i class="fa-solid fa-wifi"></i> Free WiFi Available</li>
+            <li><i class="fa-solid fa-clock"></i> Lunch/Hi-Tea: 12:30 PM – 6:00 PM</li>
+            <li><i class="fa-solid fa-clock"></i> Dinner: 7:00 PM – 12:00 Midnight</li>
+            <li><i class="fa-solid fa-truck"></i> Free Delivery Available</li>
+          </ul>
+          <a href="tel:04235750735" class="btn-red btn-sm">Call Now</a>
+        </div>
+
+        <!-- Branch 4 -->
+        <div class="branch-card">
+          <div class="branch-header">
+            <h3>Islamabad</h3>
+            <span class="branch-tag">Restaurant</span>
+          </div>
+          <ul class="branch-details">
+            <li><i class="fa-solid fa-location-dot"></i> Plot# 55, Shabbir Plaza, Blue Area, F-6, Islamabad</li>
+            <li><i class="fa-solid fa-phone"></i> 051-2604904-6</li>
+            <li><i class="fa-solid fa-clock"></i> Open Daily</li>
+          </ul>
+          <a href="tel:0512604904" class="btn-red btn-sm">Call Now</a>
+        </div>
+
+        <!-- Branch 5 -->
+        <div class="branch-card">
+          <div class="branch-header">
+            <h3>Faisalabad</h3>
+            <span class="branch-tag">Franchise</span>
+          </div>
+          <ul class="branch-details">
+            <li><i class="fa-solid fa-location-dot"></i> 14-Kohinoor City, Faisalabad</li>
+            <li><i class="fa-solid fa-phone"></i> 041-8711404</li>
+            <li><i class="fa-solid fa-clock"></i> Open Daily</li>
+            <li><i class="fa-solid fa-calendar"></i> Since November 2016</li>
+          </ul>
+          <a href="tel:0418711404" class="btn-red btn-sm">Call Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h3>Salt n Pepper Restaurant</h3>
+          <p>Pakistan’s most recognized and distinguished hospitality brand. Free delivery all over Lahore anytime, anywhere.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="branches.html">Branches</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li>Foodconsults (Pvt) Ltd</li>
+            <li>48 – Commercial Zone, Liberty Market, Lahore</li>
+            <li>042-35752893</li>
+            <li>orders@saltnpepper.com.pk</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Delivery</h4>
+          <ul>
+            <li>+92 42 111 100 678</li>
+            <li>+923 111 444 610</li>
+            <li>Free Delivery All Over Lahore</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Salt n Pepper Restaurant. All rights reserved.</span>
+        <span>Static HTML/CSS Assignment</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
